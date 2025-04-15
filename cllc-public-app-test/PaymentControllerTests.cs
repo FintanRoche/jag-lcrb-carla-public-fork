@@ -62,9 +62,6 @@ namespace Gov.Lclb.Cllb.Public.Test
 				LicenseType = "Cannabis Retail Store", //*Mandatory field **This is an entity** E.g.Cannabis Retail Store
                 ApplicantType = ViewModels.AdoxioApplicantTypeCodes.PrivateCorporation, //*Mandatory (label=business type)
                 ApplicationType = await GetDefaultCannabisApplicationType(),
-                RegisteredEstablishment = ViewModels.GeneralYesNo.No, //*Mandatory (Yes=1, No=0)
-                                                                     //,name = initialName
-                                                                     //,applyingPerson = "Applying Person" //contact
                 Applicant = currentAccount, //account
                                            //,jobNumber = "123"
                 EstablishmentName = "Not a Dispensary",
@@ -178,7 +175,6 @@ namespace Gov.Lclb.Cllb.Public.Test
                 LicenseType = "Cannabis Retail Store", //*Mandatory field **This is an entity** E.g.Cannabis Retail Store
                 ApplicantType = ViewModels.AdoxioApplicantTypeCodes.PrivateCorporation, //*Mandatory (label=business type)
 				JobNumber = "123",
-                RegisteredEstablishment = ViewModels.GeneralYesNo.No, //*Mandatory (Yes=1, No=0)
                 EstablishmentName = "Not a Dispensary",
                 EstablishmentAddress = "123 Any Street, Victoria, BC, V1X 1X1",
                 EstablishmentAddressStreet = "123 Any Street",
@@ -269,9 +265,6 @@ namespace Gov.Lclb.Cllb.Public.Test
             {
                 LicenseType = "Cannabis Retail Store", //*Mandatory field **This is an entity** E.g.Cannabis Retail Store
                 ApplicantType = ViewModels.AdoxioApplicantTypeCodes.PrivateCorporation, //*Mandatory (label=business type)
-                RegisteredEstablishment = ViewModels.GeneralYesNo.No, //*Mandatory (Yes=1, No=0)
-                                                                      //,name = initialName
-                                                                      //,applyingPerson = "Applying Person" //contact
                 Applicant = currentAccount, //account
                                             //,jobNumber = "123"
                 ApplicationType = await GetDefaultCannabisApplicationType(),

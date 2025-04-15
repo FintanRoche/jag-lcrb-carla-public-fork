@@ -54,8 +54,6 @@ export interface Application {
   modifiedOn: Date;
   name: string;
   paymentReceivedDate: Date;
-  registeredEstablishment: number;
-  prevPaymentFailed: boolean;
   serviceHoursFridayClose: string;
   serviceHoursFridayOpen: string;
   serviceHoursMondayClose: string;

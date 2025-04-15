@@ -2043,8 +2043,6 @@
                 "adoxio_establishmentotherbusinessname desc",
                 "adoxio_email",
                 "adoxio_email desc",
-                "adoxio_businessstructureinstructionfield",
-                "adoxio_businessstructureinstructionfield desc",
                 "adoxio_otherbusinessesatthesamelocation",
                 "adoxio_otherbusinessesatthesamelocation desc",
                 "adoxio_servicehourspatronparticipation",
@@ -2391,8 +2389,6 @@
                 "adoxio_appchecklistsitemapapproved desc",
                 "adoxio_addresscity",
                 "adoxio_addresscity desc",
-                "adoxio_registeredestablishment",
-                "adoxio_registeredestablishment desc",
                 "adoxio_servicehoursmondayclose",
                 "adoxio_servicehoursmondayclose desc"
               ],
@@ -2414,7 +2410,6 @@
                 "adoxio_establishmentlayoutapplyingforpatio",
                 "adoxio_establishmentotherbusinessname",
                 "adoxio_email",
-                "adoxio_businessstructureinstructionfield",
                 "adoxio_otherbusinessesatthesamelocation",
                 "adoxio_servicehourspatronparticipation",
                 "adoxio_servicehoursfridayopen",
@@ -2588,7 +2583,6 @@
                 "_adoxio_casemanager_value",
                 "adoxio_appchecklistsitemapapproved",
                 "adoxio_addresscity",
-                "adoxio_registeredestablishment",
                 "adoxio_servicehoursmondayclose"
               ],
               "type": "string"
@@ -2808,7 +2802,6 @@
                 "adoxio_establishmentlayoutapplyingforpatio",
                 "adoxio_establishmentotherbusinessname",
                 "adoxio_email",
-                "adoxio_businessstructureinstructionfield",
                 "adoxio_otherbusinessesatthesamelocation",
                 "adoxio_servicehourspatronparticipation",
                 "adoxio_servicehoursfridayopen",
@@ -2982,7 +2975,6 @@
                 "_adoxio_casemanager_value",
                 "adoxio_appchecklistsitemapapproved",
                 "adoxio_addresscity",
-                "adoxio_registeredestablishment",
                 "adoxio_servicehoursmondayclose"
               ],
               "type": "string"
@@ -16343,10 +16335,6 @@
           "type": "string",
           "x-nullable": true
         },
-        "adoxio_businessstructureinstructionfield": {
-          "type": "string",
-          "x-nullable": true
-        },
         "adoxio_role": {
           "type": "string",
           "x-nullable": true
@@ -17237,10 +17225,6 @@
           "x-nullable": true
         },
         "adoxio_finalcapassessmenttrigger": {
-          "type": "integer",
-          "x-nullable": true
-        },
-        "adoxio_registeredestablishment": {
           "type": "integer",
           "x-nullable": true
         },

@@ -270,7 +270,6 @@ namespace Gov.Lclb.Cllb.Public.Test
             {
                 LicenseType = "Cannabis Retail Store", //*Mandatory field **This is an entity** E.g.Cannabis Retail Store
                 ApplicantType = ViewModels.AdoxioApplicantTypeCodes.PrivateCorporation, //*Mandatory (label=business type)
-                RegisteredEstablishment = ViewModels.GeneralYesNo.No, //*Mandatory (Yes=1, No=0)
                 Applicant = currentAccount, //account
                 EstablishmentName = "Not a Dispensary",
                 EstablishmentAddress = "123 Any Street, Victoria, BC, V1X 1X1",

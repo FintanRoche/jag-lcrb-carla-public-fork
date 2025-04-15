@@ -453,7 +453,6 @@ namespace Gov.Lclb.Cllb.Public.ViewModels
         public DateTimeOffset? PaymentReceivedDate { get; set; }
         public bool PrevPaymentFailed { get; set; }
 
-        public GeneralYesNo RegisteredEstablishment { get; set; } //adoxio_registeredestablishment
         public string ServiceHoursId { get; set; }
 
         public bool? ServicehHoursStandardHours { get; set; }

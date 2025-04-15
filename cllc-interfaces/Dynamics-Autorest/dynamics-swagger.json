@@ -40921,10 +40921,6 @@
           "format": "date-time",
           "type": "string"
         },
-        "adoxio_registeredestablishment": {
-          "format": "int32",
-          "type": "integer"
-        },
         "adoxio_validinterestestablishmentlocation": {
           "format": "int32",
           "type": "integer"
@@ -40947,9 +40943,6 @@
         },
         "adoxio_csinternaltransferofshares": {
           "type": "boolean"
-        },
-        "adoxio_businessstructureinstructionfield": {
-          "type": "string"
         },
         "adoxio_contactpersonname": {
           "type": "string"

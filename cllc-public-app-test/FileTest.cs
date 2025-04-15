@@ -378,8 +378,6 @@ namespace Gov.Lclb.Cllb.Public.Test
                 ,
                 ApplicantType = AdoxioApplicantTypeCodes.PrivateCorporation
                 ,
-                RegisteredEstablishment = GeneralYesNo.No
-                ,
                 Applicant = currentAccount
                 ,
                 ApplicationType = await GetDefaultCannabisApplicationType(),
@@ -487,8 +485,6 @@ namespace Gov.Lclb.Cllb.Public.Test
                 ,
                 ApplicantType = AdoxioApplicantTypeCodes.PrivateCorporation
                 ,                
-                RegisteredEstablishment = GeneralYesNo.No
-                ,
                 Applicant = currentAccount
                 ,
                 ApplicationType = await GetDefaultCannabisApplicationType(),
@@ -592,8 +588,6 @@ namespace Gov.Lclb.Cllb.Public.Test
                 LicenseType = "Cannabis Retail Store"
                 ,
                 ApplicantType = AdoxioApplicantTypeCodes.PrivateCorporation
-                ,
-                RegisteredEstablishment = GeneralYesNo.No
                 ,
                 Applicant = currentAccount
                 ,
